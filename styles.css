@@ -139,7 +139,7 @@ footer a:link {
 
 footer a:visited {
     color: white;
-    background-color: C4C5BA;
+    background-color: #C4C5BA;
     text-decoration: none;
 }
 
@@ -174,4 +174,17 @@ aside img {
     margin-top: 10px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.aboutPhoto {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.aboutPhoto img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
